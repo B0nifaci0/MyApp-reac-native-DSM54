@@ -8,7 +8,7 @@ class CoinDetailsScreen extends Component{
     render(){
         return(
             <View>
-                <Text>Pantalla De Detalle</Text>
+                <Text> Mi primer pantalla detalle Pantalla De Detalle</Text>
             </View>
         )
     }
