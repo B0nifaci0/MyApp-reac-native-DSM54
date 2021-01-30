@@ -7,10 +7,13 @@ import {View, Text, Pressable, StyleSheet } from 'react-native';
 //declaramos nuestro componente de tipo class
 
 class CoinsScreen extends Component{
+    
     //declaros una funcion para llamar con props la vista de detalle
     handlesPress = () => {
-        console.log("di clic en el boton ir a pantalla de detalle");
+        console.log("el grupo DSM-54 ENTRA A LA PANTALLA DETALLE");
+        this.props.navigation.navigate('CoinDetailsScreen')
     }
+
     render(){
         return(
             <View style={styles.container}>
